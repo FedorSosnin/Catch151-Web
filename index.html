@@ -60,7 +60,7 @@
 </head>
 <body>
 <img id="logo" src="logo.svg" width="174" height="46" alt="Catch 151">
-<div id="hint">Tap, hold and swipe the screen · ← → tilt · arrows walk in PokeDungeon · Space: wild battle · Space or ↑ throws on a catch</div>
+<div id="hint">Tap, hold and swipe the screen · ← → tilt · arrows walk in Dungeon Crawler · Space: wild battle · Space or ↑ throws on a catch</div>
 <script>  // a phone has no arrow keys or Space: it tilts
   if (matchMedia('(pointer: coarse)').matches) document.getElementById('hint').textContent = 'Tap, hold and swipe the screen · Tilt to aim';
 </script>
@@ -89,7 +89,7 @@ const img = ctx.createImageData(SIDE, SIDE);
 const msg = document.getElementById('msg');
 let skipSave = false;  // an import replaces the save: the running game must not write over it
 
-const BUILD = '437898b7a1';  // stamped by build.sh: every file of one version is fetched together
+const BUILD = 'c17651cb99';  // stamped by build.sh: every file of one version is fetched together
 var Module = {
   noInitialRun: false,
   locateFile: (path) => path + '?v=' + BUILD,
@@ -251,7 +251,7 @@ for (const ev of ['pointerup', 'pointercancel']) {
 canvas.addEventListener('contextmenu', (e) => e.preventDefault());
 canvas.addEventListener('touchend', startTilt);  // a finished tap: the moment iPhones accept the question
 
-// ---- keys: arrows tilt (and walk in PokeDungeon), Space is the Knomi's button ----
+// ---- keys: arrows tilt (and walk in Dungeon Crawler), Space is the Knomi's button ----
 const keys = { left: false, right: false, up: false, down: false };
 function key(e, isDown) {
   if (e.key === 'ArrowLeft') keys.left = isDown;
@@ -327,10 +327,12 @@ const canVibe = typeof navigator.vibrate === 'function' && matchMedia('(pointer:
 let vibeOn = true;
 try { vibeOn = localStorage.getItem('pwg-vibrate') !== 'off'; } catch (e) {}
 // ms (or on/off patterns) per effect, in audio.h's Sfx order: tap, eat, play, heart, hatch, evolve,
-// medal, deny, bye, level, shake 1-3
-const BUZZ = [8, 20, 12, [15, 40, 15], [40, 60, 80], [60, 60, 60, 60, 120], [30, 40, 60], [40, 30, 40], 80, [20, 40, 40], 30, 30, 30];
+// medal, deny, bye, level, shake 1-3, then Reel Fishing's: cast, plip, nibble, bite, hook, reel, warn, strain, slack,
+// snap, landed, scale (0: none, as each tap's reel click and the float's plip)
+const BUZZ = [8, 20, 12, [15, 40, 15], [40, 60, 80], [60, 60, 60, 60, 120], [30, 40, 60], [40, 30, 40], 80, [20, 40, 40], 30, 30, 30,
+  10, 0, 12, 90, 30, 0, [20, 40, 20], 60, [30, 80, 30], 200, [30, 50, 30, 50, 120], 15];
 Module.haptic = (sfx) => {
-  if (canVibe && vibeOn && BUZZ[sfx] !== undefined) try { navigator.vibrate(BUZZ[sfx]); } catch (e) {}
+  if (canVibe && vibeOn && BUZZ[sfx]) try { navigator.vibrate(BUZZ[sfx]); } catch (e) {}  // (0: none, and no cutting one short)
 };
 function updateVibeButton() { vibeBtn.textContent = 'Vibration: ' + (vibeOn ? 'On' : 'Off'); }
 if (canVibe) { vibeBtn.hidden = false; updateVibeButton(); }
@@ -728,6 +730,6 @@ document.getElementById('import').addEventListener('change', async (e) => {
   sync(() => location.reload());
 });
 </script>
-<script src="pokewebgochi.js?v=437898b7a1"></script>
+<script src="pokewebgochi.js?v=c17651cb99"></script>
 </body>
 </html>

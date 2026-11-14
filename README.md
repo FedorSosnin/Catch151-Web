@@ -2,7 +2,7 @@
 
 [![Live players](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcatch151-relay.fedor-dd0.workers.dev%2Fstats&query=%24.online&label=live%20players&color=de2121&cacheSeconds=300)](https://catch151.3dprintsos.com)
 
-**A Pokémon virtual pet in your browser.** Raise one of the original 151, battle and catch wild Pokémon, climb Knomi Tower, fill your Pokédex, play mini games and meet your buddies. Free, with nothing to install.
+**A Pokémon virtual pet in your browser.** Raise one of the original 151, battle and catch wild Pokémon, climb Knomi Tower, fill your Pokédex, go fishing, play mini games and meet your buddies. Free, with nothing to install.
 
 ### [▶ Play now at catch151.3dprintsos.com](https://catch151.3dprintsos.com)
 
@@ -14,17 +14,19 @@
 |:--:|:--:|:--:|
 | ![Pikachu walking toward you through the Forest](images/walk-forest.gif) | ![Charizard's fire attack on a wild Pikachu](images/battle.png) | ![An Ultra Ball thrown at a running Pikachu: it hits, drops and holds](images/catch.gif) |
 | **Raise your Pokémon** | **Battle wild Pokémon** | **Catch what you beat** |
+| ![Reel Fishing: reeling a fish in to its beat, the LINE bar on the right](images/fishing.gif) | ![The weigh-in: a gold gauge fills to the fish's weight](images/fishing-weigh.gif) | ![The end of a game: five weights and the total against bronze, silver and gold](images/fishing-end.png) |
+| **New: Reel Fishing** | **Weigh each one, then let it go** | **Bronze, silver or gold** |
 | ![Knomi Tower: eight floors and the Legend](images/tower.png) | ![Who goes first? Your team against a floor's guardian](images/tower-lead.png) | ![TOWER MASTER! The Hall of Fame and a Master Ball](images/tower-master.png) |
-| **New: climb Knomi Tower** | **Your Pokémon and two friends** | **Beat Mewtwo at the top** |
-| ![Knomi Island: five zones to hunt in](images/travel.gif) | ![The Pokédex](images/pokedex.png) | ![The mini games on a Game Boy](images/games.png) |
+| **Climb Knomi Tower** | **Your Pokémon and two friends** | **Beat Mewtwo at the top** |
+| ![Knomi Island: five zones to hunt in](images/travel.gif) | ![The Pokédex](images/pokedex.gif) | ![Six mini games on a Game Boy](images/games.gif) |
 | **Choose where to hunt** | **Fill the Pokédex** | **Play mini games** |
-| ![Pikachu with Eevee and Squirtle visiting](images/buddies.png) | ![Battle, trade or play with a buddy](images/buddy-menu.png) | ![A hold on your Pokémon: Settings, Medals, Stats and the Pokédex](images/radial.gif) |
+| ![Pikachu with Eevee and Squirtle visiting](images/buddies.gif) | ![Battle, trade or play with a buddy](images/buddy-menu.png) | ![A hold on your Pokémon: Settings, Medals, Stats and the Pokédex](images/radial.gif) |
 | **Buddies come to play** | **Battle, trade or play with them** | **Hold it for a menu** |
-| ![Play together](images/play-together.png) | ![Who's That Pokémon?](images/quiz.png) | ![PikaSurf](images/pikasurf.gif) |
+| ![Play together](images/play-together.gif) | ![Who's That Pokémon?](images/quiz.gif) | ![PikaSurf](images/pikasurf.gif) |
 | **Play together** | **Who's That Pokémon?** | **PikaSurf** |
 | ![The backpack: berries, a candy and a Repel](images/backpack.png) | ![The card, with the favorite berry](images/card-profile.png) | ![A Pokédex entry turning round](images/pokedex-spin.gif) |
 | **Feed it from the backpack** | **Its card and favorite berry** | **Every entry turns round** |
-| ![The trophy room](images/trophy-room.png) | ![Battle stats and wins](images/card-battle.png) | ![Level and evolution progress](images/card-progress.png) |
+| ![The trophy room](images/trophy-room.gif) | ![Battle stats and wins](images/card-battle.png) | ![Level and evolution progress](images/card-progress.png) |
 | **A trophy room of medals** | **Stats and battle wins** | **How close it is to evolving** |
 
 ## On your phone
@@ -41,7 +43,8 @@ Tap, hold and swipe the screen, and tilt your phone to aim a Poké Ball. iPhones
 - **Hold your Pokémon** for the menu, a ring of **Settings** (sound, language, and an **About** page with links to the code and the YouTube channel), **Medals** (the trophy room), **Stats** (its card: tap its name there to rename it) and the **Pokédex**. Slide onto one and let go, or let go first and tap one. The round **✕** at the bottom closes any of them, and the arrows at the sides (or a swipe) slide their pages across.
 - **Battle** with the map icon: travel to a zone and search, or tap **Wild Encounter** to meet a wild Pokémon at your Pokémon's home, and catch what you beat to fill your Pokédex: tap a ball to choose it and **Throw** to throw it at the Pokémon running back and forth, leaning (or using the arrow keys) to aim. Every catch has 1 to 3 ★, and a better one replaces yours. Every 25 battles you see through earn an **Ultra Ball**, which triples the chance, and every 100 a **Master Ball**, which always catches.
 - **Knomi Tower:** on Travel, tap the arrow on the right to follow the pier out to the tower, then **CLIMB!** with a full energy bar. Your Pokémon and two friends from your Pokédex fight eight floors of type guardians and then the Legend and Mewtwo, their HP carrying over from fight to fight. **Who goes first?** marks who should win each fight. Beating the Legend earns a Master Ball every time.
-- On a computer, the mouse is a finger: it presses when you click, and what's under it lifts a little. The **left and right arrows** tilt, **all four arrows** walk in PokeDungeon, **Space** starts a wild battle, and on a catch the **left and right arrows** choose a ball and **Space** or the **up arrow** throws it.
+- **Reel Fishing**, the sixth cartridge: five casts off the Beach's pier. Tap the water by a fish (big shadows weigh more), tap when the float goes under, then tap to the beat to reel it in, keeping the white needle in the green of the **LINE** bar. Every fish is weighed and let go, and the total weight goes for bronze (50 kg), silver (150) and gold (300).
+- On a computer, the mouse is a finger: it presses when you click, and what's under it lifts a little. The **left and right arrows** tilt, **all four arrows** walk in Dungeon Crawler, **Space** starts a wild battle (and casts, strikes and reels in Reel Fishing), and on a catch the **left and right arrows** choose a ball and **Space** or the **up arrow** throws it.
 
 ## Training
 
@@ -64,7 +67,7 @@ Your Pokémon is saved in this browser automatically. Clearing the browser's dat
 
 ## Buddies
 
-Anyone else playing on the same home Wi-Fi shows up on your screen: up to four at once. Tap one to battle, trade Pokédex entries, or **play** a game together: in **Who's That? Showdown** you both see the same silhouette and race to name it first, and in **Poké Ball Volley** your screens are the two halves of one court. Trades are a real swap: the Pokémon you give leaves your Pokédex. Shinies (about 1 wild Pokémon in 100) sparkle, have their own place in the Pokédex and can be traded too. While anyone's around, your Pokémon gets a **Party Boost**: energy drains a quarter slower, and it has +2 ATK, DEF and SPD in wild battles. Tap the round Party Boost button (two balloons and **+2**, to the right of your Pokémon) to see who's here, and tap a friend for its stats. A wild Pokémon also visits once a day for an hour, brings a candy and counts for the boost too. 
+Anyone else playing on the same home Wi-Fi shows up on your screen: up to four at once. Tap one to battle, trade Pokédex entries, or **play** a game together: in **Who's That? Showdown** you both see the same silhouette and race to name it first, and in **Volley Ball** your screens are the two halves of one court. Trades are a real swap: the Pokémon you give leaves your Pokédex. Shinies (about 1 wild Pokémon in 100) sparkle, have their own place in the Pokédex and can be traded too. While anyone's around, your Pokémon gets a **Party Boost**: energy drains a quarter slower, and it has +2 ATK, DEF and SPD in wild battles. Tap the round Party Boost button (two balloons and **+2**, to the right of your Pokémon) to see who's here, and tap a friend for its stats. A wild Pokémon also visits once a day for an hour, brings a candy and counts for the boost too. 
 
 | ![Party Boost: who's here and the boost](images/party-boost.png) | ![A buddy's stats](images/friend-stats.png) |
 |:---:|:---:|
