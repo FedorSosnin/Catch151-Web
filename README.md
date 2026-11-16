@@ -59,7 +59,7 @@ Each one stops at 100. The **Training** page on your Pokémon's card shows how f
 
 ## Moves
 
-Your Pokémon fights with two moves: on the right the strongest of its own type, on the left the strongest of any other type. They are the attacks its species learns in Pokémon Red and Blue, up to its level, and it gains a level every hour, asleep or awake. Only levels teach moves, not training or wins. When a stronger one takes over a button, the next wild battle opens with **Learned …!** A Charmander starts with Scratch, learns Ember at level 9, Slash at 30 and Flamethrower at 38. The [moves chart](https://github.com/FedorSosnin/Catch151/blob/main/docs/MOVES.md) has each move's power and every Pokémon's moves and the level it evolves at.
+Your Pokémon fights with two moves: on the right the strongest of its own type, on the left the strongest of any other type. They are the attacks its species learns in Pokémon Red and Blue, up to its level, and it gains a level every hour, asleep or awake. Only levels teach moves, not training or wins. When a stronger one takes over a button, the next wild battle opens with **Learned …!** A Charmander starts with Scratch, learns Ember at level 9, Slash at 30 and Flamethrower at 38. The [moves chart](https://github.com/FedorSosnin/Catch151/blob/main/Catch151/docs/MOVES.md) has each move's power and every Pokémon's moves and the level it evolves at.
 
 ## Your save
 
@@ -85,7 +85,7 @@ The same game runs on the **BIGTREETECH Knomi V2**, a little round touchscreen m
 
 1. **Get a Knomi V2:** [BIGTREETECH Knomi V2](https://www.awin1.com/pclick.php?p=43148197656&a=2034499&m=95665). This is an affiliate link from [deals.3dprintsos.com](https://deals.3dprintsos.com): buying through it supports this project at no extra cost to you.
 2. **Install the game** from your browser with the [web installer](https://fedorsosnin.github.io/Catch151/) (Chrome or Edge, a USB-C data cable). After that it updates itself over Wi-Fi.
-3. **Print the case:** download [`PokeKnomiGochi-case.3mf`](https://github.com/FedorSosnin/Catch151/raw/main/print/PokeKnomiGochi-case.3mf), ready to print in red, white and black. It's a remix of [Knomi V2 Creality K1 wall holder / table stand](https://www.printables.com/model/850244-knomi-v2-creality-k1-wall-holder-table-stand) by [Nastra](https://www.printables.com/@Nastra_283431), with a new button and rounded back, shared under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/): free to print and remix with credit, not to sell.
+3. **Print the case:** download [`PokeKnomiGochi-case.3mf`](https://github.com/FedorSosnin/Catch151/raw/main/Catch151/print/PokeKnomiGochi-case.3mf), ready to print in red, white and black. It's a remix of [Knomi V2 Creality K1 wall holder / table stand](https://www.printables.com/model/850244-knomi-v2-creality-k1-wall-holder-table-stand) by [Nastra](https://www.printables.com/@Nastra_283431), with a new button and rounded back, shared under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/): free to print and remix with credit, not to sell.
 
 More in the [Catch 151 README](https://github.com/FedorSosnin/Catch151#3d-printed-case).
 
