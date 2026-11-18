@@ -89,7 +89,7 @@ const img = ctx.createImageData(SIDE, SIDE);
 const msg = document.getElementById('msg');
 let skipSave = false;  // an import replaces the save: the running game must not write over it
 
-const BUILD = 'e5b6cb06e6';  // stamped by build.sh: every file of one version is fetched together
+const BUILD = '8150db59f2';  // stamped by build.sh: every file of one version is fetched together
 var Module = {
   noInitialRun: false,
   locateFile: (path) => path + '?v=' + BUILD,
@@ -230,6 +230,7 @@ canvas.addEventListener('pointerdown', (e) => {
   down = true;
   if (e.pointerType === 'mouse') canvas.style.cursor = FINGER_DOWN;
   const [x, y] = point(e);
+  if (Module._webFinger) Module._webFinger(e.pointerType === 'mouse' ? 0 : 1);  // a finger's tap zooms the keyboard in, a mouse's types
   Module._webPointer(x, y, 1);
   e.preventDefault();
 });
@@ -730,6 +731,6 @@ document.getElementById('import').addEventListener('change', async (e) => {
   sync(() => location.reload());
 });
 </script>
-<script src="pokewebgochi.js?v=e5b6cb06e6"></script>
+<script src="pokewebgochi.js?v=8150db59f2"></script>
 </body>
 </html>
