@@ -2,7 +2,7 @@
 
 [![Live players](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcatch151-relay.fedor-dd0.workers.dev%2Fstats&query=%24.online&label=live%20players&color=de2121&cacheSeconds=300)](https://catch151.3dprintsos.com)
 
-**A Pokémon virtual pet in your browser.** Raise one of the original 151, battle and catch wild Pokémon, climb Knomi Tower, fill your Pokédex, go fishing, play mini games and meet your buddies. Free, with nothing to install.
+**A Pokémon virtual pet in your browser.** Raise one of the original 151, battle and catch wild Pokémon, climb Knomi Tower, fill your Pokédex, go fishing, play mini games (the newest, BerryMatch, a berry-swapping puzzle) and meet your buddies. Free, with nothing to install.
 
 ### [▶ Play now at catch151.3dprintsos.com](https://catch151.3dprintsos.com)
 
@@ -18,7 +18,7 @@
 | **New: Reel Fishing** | **Weigh each one, then let it go** | **Bronze, silver or gold** |
 | ![Knomi Tower: eight floors and the Legend](images/tower.png) | ![Who goes first? Your team against a floor's guardian](images/tower-lead.png) | ![TOWER MASTER! The Hall of Fame and a Master Ball](images/tower-master.png) |
 | **Climb Knomi Tower** | **Your Pokémon and two friends** | **Beat Mewtwo at the top** |
-| ![Knomi Island: five zones to hunt in](images/travel.gif) | ![The Pokédex](images/pokedex.gif) | ![Six mini games on a Game Boy](images/games.gif) |
+| ![Knomi Island: five zones to hunt in](images/travel.gif) | ![The Pokédex](images/pokedex.gif) | ![Eight mini games on a Game Boy, the newest BerryMatch on page 2](images/games.gif) |
 | **Choose where to hunt** | **Fill the Pokédex** | **Play mini games** |
 | ![Pikachu with Eevee and Squirtle visiting](images/buddies.gif) | ![Battle, trade or play with a buddy](images/buddy-menu.png) | ![A hold on your Pokémon: Settings, Medals, Stats and the Pokédex](images/radial.gif) |
 | **Buddies come to play** | **Battle, trade or play with them** | **Hold it for a menu** |

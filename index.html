@@ -89,7 +89,7 @@ const img = ctx.createImageData(SIDE, SIDE);
 const msg = document.getElementById('msg');
 let skipSave = false;  // an import replaces the save: the running game must not write over it
 
-const BUILD = '5973ce0797';  // stamped by build.sh: every file of one version is fetched together
+const BUILD = 'a5e808a945';  // stamped by build.sh: every file of one version is fetched together
 var Module = {
   noInitialRun: false,
   locateFile: (path) => path + '?v=' + BUILD,
@@ -252,9 +252,20 @@ for (const ev of ['pointerup', 'pointercancel']) {
 canvas.addEventListener('contextmenu', (e) => e.preventDefault());
 canvas.addEventListener('touchend', startTilt);  // a finished tap: the moment iPhones accept the question
 
-// ---- keys: arrows tilt (and walk in Dungeon Crawler), Space is the Knomi's button ----
+// ---- keys: arrows tilt (and walk in Dungeon Crawler), Space is the Knomi's button; with one of the game's keyboards
+// open (the nickname, the gamer tag) what's typed goes to it instead, Space too ----
 const keys = { left: false, right: false, up: false, down: false };
+const TYPED = { Backspace: 8, Enter: 13, Escape: 27 };
+function typeKey(e) {
+  if (!Module._webTyping || !Module._webTyping() || e.ctrlKey || e.metaKey || e.altKey) return false;
+  const c = e.key.length === 1 ? e.key.charCodeAt(0) : TYPED[e.key];
+  if (c === undefined) return false;
+  if (c === 8 || c === 13 || c === 27 || (c >= 32 && c <= 126)) Module._webTypeKey(c);
+  e.preventDefault();
+  return true;
+}
 function key(e, isDown) {
+  if (isDown && typeKey(e)) return;
   if (e.key === 'ArrowLeft') keys.left = isDown;
   else if (e.key === 'ArrowRight') keys.right = isDown;
   else if (e.key === 'ArrowUp') keys.up = isDown;
@@ -731,6 +742,6 @@ document.getElementById('import').addEventListener('change', async (e) => {
   sync(() => location.reload());
 });
 </script>
-<script src="pokewebgochi.js?v=5973ce0797"></script>
+<script src="pokewebgochi.js?v=a5e808a945"></script>
 </body>
 </html>
