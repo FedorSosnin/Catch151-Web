@@ -89,7 +89,7 @@ const img = ctx.createImageData(SIDE, SIDE);
 const msg = document.getElementById('msg');
 let skipSave = false;  // an import replaces the save: the running game must not write over it
 
-const BUILD = 'a5e808a945';  // stamped by build.sh: every file of one version is fetched together
+const BUILD = '12b7143d40';  // stamped by build.sh: every file of one version is fetched together
 var Module = {
   noInitialRun: false,
   locateFile: (path) => path + '?v=' + BUILD,
@@ -340,9 +340,9 @@ let vibeOn = true;
 try { vibeOn = localStorage.getItem('pwg-vibrate') !== 'off'; } catch (e) {}
 // ms (or on/off patterns) per effect, in audio.h's Sfx order: tap, eat, play, heart, hatch, evolve,
 // medal, deny, bye, level, shake 1-3, then Reel Fishing's: cast, plip, nibble, bite, hook, reel, warn, strain, slack,
-// snap, landed, scale (0: none, as each tap's reel click and the float's plip)
+// snap, landed, scale (0: none, as each tap's reel click and the float's plip), then Pic Snap's shutter
 const BUZZ = [8, 20, 12, [15, 40, 15], [40, 60, 80], [60, 60, 60, 60, 120], [30, 40, 60], [40, 30, 40], 80, [20, 40, 40], 30, 30, 30,
-  10, 0, 12, 90, 30, 0, [20, 40, 20], 60, [30, 80, 30], 200, [30, 50, 30, 50, 120], 15];
+  10, 0, 12, 90, 30, 0, [20, 40, 20], 60, [30, 80, 30], 200, [30, 50, 30, 50, 120], 15, 12];
 Module.haptic = (sfx) => {
   if (canVibe && vibeOn && BUZZ[sfx]) try { navigator.vibrate(BUZZ[sfx]); } catch (e) {}  // (0: none, and no cutting one short)
 };
@@ -742,6 +742,6 @@ document.getElementById('import').addEventListener('change', async (e) => {
   sync(() => location.reload());
 });
 </script>
-<script src="pokewebgochi.js?v=a5e808a945"></script>
+<script src="pokewebgochi.js?v=12b7143d40"></script>
 </body>
 </html>

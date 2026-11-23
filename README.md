@@ -2,7 +2,7 @@
 
 [![Live players](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcatch151-relay.fedor-dd0.workers.dev%2Fstats&query=%24.online&label=live%20players&color=de2121&cacheSeconds=300)](https://catch151.3dprintsos.com)
 
-**A Pokémon virtual pet in your browser.** Raise one of the original 151, battle and catch wild Pokémon, climb Knomi Tower, fill your Pokédex, go fishing, play mini games (the newest, BerryMatch, a berry-swapping puzzle) and meet your buddies. Free, with nothing to install.
+**A Pokémon virtual pet in your browser.** Raise one of the original 151, battle and catch wild Pokémon, climb Knomi Tower, fill your Pokédex, go fishing, play mini games (the newest, Pic Snap, a camera on Knomi Island) and meet your buddies. Free, with nothing to install.
 
 ### [▶ Play now at catch151.3dprintsos.com](https://catch151.3dprintsos.com)
 
@@ -18,9 +18,9 @@
 | **New: Reel Fishing** | **Weigh each one, then let it go** | **Bronze, silver or gold** |
 | ![Knomi Tower: eight floors and the Legend](images/tower.png) | ![Who goes first? Your team against a floor's guardian](images/tower-lead.png) | ![TOWER MASTER! The Hall of Fame and a Master Ball](images/tower-master.png) |
 | **Climb Knomi Tower** | **Your Pokémon and two friends** | **Beat Mewtwo at the top** |
-| ![Knomi Island: five zones to hunt in](images/travel.gif) | ![The Pokédex](images/pokedex.gif) | ![Eight mini games on a Game Boy, the newest BerryMatch on page 2](images/games.gif) |
+| ![Knomi Island: five zones to hunt in](images/travel.gif) | ![The Pokédex](images/pokedex.gif) | ![Nine mini games on a Game Boy, four a page, the newest Pic Snap on page 3](images/games.gif) |
 | **Choose where to hunt** | **Fill the Pokédex** | **Play mini games** |
-| ![Pikachu with Eevee and Squirtle visiting](images/buddies.gif) | ![Battle, trade or play with a buddy](images/buddy-menu.png) | ![A hold on your Pokémon: Settings, Medals, Stats and the Pokédex](images/radial.gif) |
+| ![Pikachu with Eevee and Squirtle visiting](images/buddies.gif) | ![Battle, trade or play with a buddy](images/buddy-menu.png) | ![A hold on Pikachu opens a ring of Stats, Medals, Settings, Sound and the Pokédex; Sound opens the music and effects sliders and Mute](images/radial-sound.gif) |
 | **Buddies come to play** | **Battle, trade or play with them** | **Hold it for a menu** |
 | ![Play together](images/play-together.gif) | ![Who's That Pokémon?](images/quiz.gif) | ![PikaSurf](images/pikasurf.gif) |
 | **Play together** | **Who's That Pokémon?** | **PikaSurf** |
@@ -40,17 +40,18 @@ Tap, hold and swipe the screen, and tilt your phone to aim a Poké Ball. iPhones
 ## How to play
 
 - **Tap your Pokémon** to pet it. The icons along the bottom, from left to right, open the mini games, start a battle, open your bag to feed it (in the middle), turn off the light at bedtime and give it a bath.
-- **Hold your Pokémon** for the menu, a ring of **Settings** (sound, language, and an **About** page with links to the code and the YouTube channel), **Medals** (the trophy room), **Stats** (its card: tap its name there to rename it) and the **Pokédex**. Slide onto one and let go, or let go first and tap one. The round **✕** at the bottom closes any of them, and the arrows at the sides (or a swipe) slide their pages across.
+- **Hold your Pokémon** for the menu, a ring of **Stats** (its card: tap its name there to rename it), **Medals** (the trophy room), **Settings** (the time, the language, and an **About** page with links to the code and the YouTube channel), **Sound** (a slider for the music and one for the effects and cries, and a big **Mute** button) and the **Pokédex**. Slide onto one and let go, or let go first and tap one. The round **✕** at the bottom closes any of them, and the arrows at the sides (or a swipe) slide their pages across.
 - **Battle** with the map icon: travel to a zone and search, or tap **Wild Encounter** to meet a wild Pokémon at your Pokémon's home, and catch what you beat to fill your Pokédex: tap a ball to choose it and **Throw** to throw it at the Pokémon running back and forth, leaning (or using the arrow keys) to aim. Every catch has 1 to 3 ★, and a better one replaces yours. Every 25 battles you see through earn an **Ultra Ball**, which triples the chance, and every 100 a **Master Ball**, which always catches.
 - **Knomi Tower:** on Travel, tap the arrow on the right to follow the pier out to the tower, then **CLIMB!** with a full energy bar. Your Pokémon and two friends from your Pokédex fight eight floors of type guardians and then the Legend and Mewtwo, their HP carrying over from fight to fight. **Who goes first?** marks who should win each fight. Beating the Legend earns a Master Ball every time.
 - **Reel Fishing**, the sixth cartridge: five casts off the Beach's pier. Tap the water by a fish (big shadows weigh more), tap when the float goes under, then tap to the beat to reel it in, keeping the white needle in the green of the **LINE** bar. Every fish is weighed and let go, and the total weight goes for bronze (50 kg), silver (150) and gold (300).
+- **Pic Snap**, the ninth cartridge: a camera on Knomi Island. In each of ten places a wild Pokémon pops out of the grass, the sea or the dark while the lens hunts for focus; tap (or click, or press Space) when it's sharp and in the middle. Up to 100 points a photo, ten photos a roll, and your best goes on the leaderboard.
 - On a computer, the mouse is a finger: it presses when you click, and what's under it lifts a little. The **left and right arrows** tilt, **all four arrows** walk in Dungeon Crawler, **Space** starts a wild battle (and casts, strikes and reels in Reel Fishing), and on a catch the **left and right arrows** choose a ball and **Space** or the **up arrow** throws it.
 
 ## Training
 
 - **Winning a battle** adds attack training.
 - **Every 6 hours of good care** adds defense training.
-- **Mini games** add speed training.
+- **Mini games** add speed training: a game's end shows how much, as **SPD TRAINING +2**.
 - **Weight** goes up with food (candy the most) and down with play. Over 50, your Pokémon tires twice as fast.
 
 Each one stops at 100. The **Training** page on your Pokémon's card shows how far along each one is, and says **MAX** when it's full.
@@ -77,15 +78,15 @@ You meet players of the browser version, the [Mac and Windows apps](https://gith
 
 ## Want a real one?
 
-<p align="center"><img src="images/knomi-gameboys.gif" alt="Catch 151 on a BTT Knomi V2 in its 3D-printed Poké Ball case, beside two Game Boys: Gengar walking past the haunted Mansion" width="720"></p>
+<p align="center"><img src="images/knomi-on-stand.gif" alt="Catch 151 on a BTT Knomi V2 in its 3D-printed case, on its magnetic stand on a desk: a Pokémon walking through the Forest" width="720"></p>
 
-<p align="center"><img src="images/knomi-in-hand.jpg" alt="Catch 151 running on a BTT Knomi V2 in a 3D-printed Poké Ball case" width="360"> <img src="images/knomi-on-desk.jpg" alt="The Knomi in its Poké Ball case on a desk, showing the starter screen" width="360"></p>
+<p align="center"><img src="images/knomi-in-hand.jpg" alt="Catch 151 running on a BTT Knomi V2 in its 3D-printed case, in hand" width="360"> <img src="images/knomi-on-desk.jpg" alt="The Knomi in its 3D-printed case flat on a desk, Pikachu at night on the screen" width="360"></p>
 
-The same game runs on the **BIGTREETECH Knomi V2**, a little round touchscreen made for 3D printers. Put it in a 3D-printed Poké Ball case and you have a pocket tamagotchi that tilts, buzzes and meets the browser, Mac and Windows players as buddies.
+The same game runs on the **BIGTREETECH Knomi V2**, a little round touchscreen made for 3D printers. Put it in its 3D-printed case and you have a pocket tamagotchi that tilts, buzzes and meets the browser, Mac and Windows players as buddies.
 
 1. **Get a Knomi V2:** [BIGTREETECH Knomi V2](https://www.awin1.com/pclick.php?p=43148197656&a=2034499&m=95665). This is an affiliate link from [deals.3dprintsos.com](https://deals.3dprintsos.com): buying through it supports this project at no extra cost to you.
 2. **Install the game** from your browser with the [web installer](https://fedorsosnin.github.io/Catch151/) (Chrome or Edge, a USB-C data cable). After that it updates itself over Wi-Fi.
-3. **Print the case:** download [`PokeKnomiGochi-case.3mf`](https://github.com/FedorSosnin/Catch151/raw/main/Catch151/print/PokeKnomiGochi-case.3mf), ready to print in red, white and black. It's a remix of [Knomi V2 Creality K1 wall holder / table stand](https://www.printables.com/model/850244-knomi-v2-creality-k1-wall-holder-table-stand) by [Nastra](https://www.printables.com/@Nastra_283431), with a new button and rounded back, shared under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/): free to print and remix with credit, not to sell.
+3. **Print the case:** an original design in Poké Ball colors, with the glass flush with the face, a twist-on bezel and a magnetic stand that holds it at 45° on your desk. Download it from [MakerWorld](https://makerworld.com/en/models/3651088-catch-151-knomi-v2-case-with-magnetic-stand) or [Printables](https://www.printables.com/model/1923425-catch-151-knomi-v2-case-with-magnetic-stand): red, white and a black band, no supports. You'll also need 8 disc magnets, 6 × 2 mm. It's shared under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/): free to print and remix with credit, not to sell.
 
 More in the [Catch 151 README](https://github.com/FedorSosnin/Catch151#3d-printed-case).
 
